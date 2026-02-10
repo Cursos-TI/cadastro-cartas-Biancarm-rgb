@@ -52,5 +52,25 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
+  // exibindo os resultados da primeira carta:
+    printf("\n----- PRIMEIRA CARTA -----\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Cidade: %s\n", cidade1);
+    printf("Populção: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d \n", pontos_turisticos1);
+
+    // exibindo os resultados da segunda carta:
+    printf("\n----- SEGUNDA CARTA -----\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Cidade: %s\n", cidade2);
+    printf("Populção: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d \n", pontos_turisticos2);
+
 return 0;
 } 
